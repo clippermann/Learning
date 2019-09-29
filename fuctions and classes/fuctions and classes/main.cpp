@@ -24,7 +24,17 @@ int main(){
     cin >> ls;
     angle = asin(ss/ls);
     cout << "The angle is " << angle/3.1415 << "π" << endl;
-     */
-    Area MyObject;
-    MyObject.Calculateare();
+   */
+    Area mo;
+    mo.oneside=4;
+    mo.anotherside=5;
+    mo.Calculateare();
+    double arctan;
+    arctan=atan(mo.oneside/mo.anotherside); //public variable can be quoted?
+    cout << arctan << endl;
+    cout << "input a number" << endl;
+    cin >> mo.oneside;
+    cout << "input another number" << endl;
+    cin >> mo.anotherside;
+    mo.Calculateare();
 }

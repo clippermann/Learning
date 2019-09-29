@@ -13,8 +13,8 @@
 
 class Area{
 public:
-    int oneside=2;
-    int anotherside=3;
+    double oneside;
+    double anotherside;
     void Calculateare();
 };
 
