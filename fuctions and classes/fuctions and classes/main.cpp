@@ -2,9 +2,11 @@
 
 #include <iostream>
 #include <cmath>
+#include "playwithclasses.hpp"
 using namespace std;
 
 int main(){
+    /*
     double x = 2.5, y;
     y = pow(x,3.0); //2.5^3
     cout << y << endl;
@@ -22,4 +24,7 @@ int main(){
     cin >> ls;
     angle = asin(ss/ls);
     cout << "The angle is " << angle/3.1415 << "π" << endl;
+     */
+    Area MyObject;
+    MyObject.Calculateare();
 }
